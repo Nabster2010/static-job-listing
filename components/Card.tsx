@@ -1,5 +1,5 @@
 import { classNames } from "../utils/classNames";
-import { Job } from "../utils/TYPES";
+import { Job } from "../pages/index";
 import Avatar from "./Avatar";
 import Chip from "./Chip";
 import Divider from "./Divider";
