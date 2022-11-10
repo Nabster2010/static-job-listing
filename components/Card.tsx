@@ -53,7 +53,12 @@ const Card = ({
       {/* tags section */}
       <div className="flex flex-wrap items-center justify-start gap-4">
         {[...data.languages, ...data.tools].map((item) => (
-          <Tag key={item} title={item} filterBy={filterBy} />
+          <Tag
+            key={item}
+            removeFilter={() => null}
+            title={item}
+            filterBy={filterBy}
+          />
         ))}
       </div>
     </div>
