@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repo](https://github.com/Nabster2010/static-job-listing)
-- Live Site URL: [live site]()
+- Live Site URL: [live site](https://static-job-listing-jmpw.vercel.app/ar)
 
 ### Built with
 
