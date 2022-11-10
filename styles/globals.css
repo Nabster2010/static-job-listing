@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.featured {
+  @apply border-l-8 border-DesaturatedDarkCyan;
+}
