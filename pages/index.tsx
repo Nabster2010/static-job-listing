@@ -4,7 +4,22 @@ import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import FilteredCard from "../components/FilteredCard";
 import data from "../data.json";
-import { Job } from "../utils/TYPES";
+
+export type Job = {
+  id: number;
+  company: string;
+  logo: string;
+  new: boolean;
+  featured: boolean;
+  position: string;
+  role: string;
+  level: string;
+  postedAt: string;
+  contract: string;
+  location: string;
+  languages: string[];
+  tools: string[];
+};
 
 const Home: NextPage = () => {
   const [filteredJobs, setFilteredJobs] = useState(data);
